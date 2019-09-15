@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.row {
+  text-align: center;
+}
+
+#screen {
+  height: 80px;
+  width: 100%;
+  background: #dddddd;
+  color: black;
+  line-height: 80px;
+  font-size: 36px;
+  text-align: right;
+}
+
+.btn {
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 15%;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 20px;
+  background: #444444;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#c-button {
+  background: rgb(221, 115, 15);
+  color: white;
+}
